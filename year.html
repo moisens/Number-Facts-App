@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Year fact</title>
+   <link rel="stylesheet" href="fact.css">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body class="bg-dark">
+   <div class="container">
+      <div class="row">
+         <div class="col-md-6 mx-auto">
+            <!--Beginning of Number facts-AJAX-->
+            <div class="card bg-warning text-black mt-5 p-4">
+               <h1>Year Facts</h1>
+               <h5>With Ajax</h5>
+               <p>Enter any year and get random fact</p>
+               <input type="number" class="form-control-lg" id="yearInput" placeholder="Enter any number">
+               <div id="year" class="card-body">
+                  <h4 class="card-title">Year Fact</h4>
+                  <p id="yearText" class="card-text"></p>
+               </div>
+            </div>
+            <!--End of Number facts-AJAX-->
+
+
+   <script src="year.js"></script>
+</body>
+</html>
