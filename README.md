@@ -4,4 +4,4 @@
 3 Vanilla JS Years Facts App - Ajax &amp; Fetch
 4 Vanilla JS Math Facts App - Ajax &amp; Fetch
 
---Look like repetition, yes that how we learn. Now i want more repetion.--
+--Look likes repetition, yes that how we learn. Now i want more repetion.--
